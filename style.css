@@ -220,7 +220,7 @@ span {
 /*& MOBILE */
 @media  screen and (max-width: 630px) {
     
-    
+    /*& MAIN PAGE */
     .friend-heading {
         text-align: center;
         font-size: 2.2rem;
@@ -235,5 +235,42 @@ span {
         flex-direction: row;
         /* background-color: red; */
         justify-content: center;
+    }
+
+    /*& FRIEND INDIVIDUAL PAGE */
+    body {
+        justify-content: center;
+    }
+
+    .friend-name {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .friend-name > * {
+        font-size: 2.2rem;
+    }
+     
+    .friend-info-container {
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .friend-individual-image > img {
+        width: 300px;
+        padding-left: 3rem;
+    }
+
+    .friend-lines-list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .friend-lines-list > li {
+        text-align: center;
+        width: 12em;
     }
 }

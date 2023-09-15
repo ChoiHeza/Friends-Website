@@ -206,3 +206,34 @@ span {
     width: 1em;
     margin-left: -1em;
 }
+
+/*& MEDIA QUERIES */
+
+/*& DESKTOP */
+@media screen and (min-width: 1435px) {
+    .friend-container {
+        /* background-color: red; */
+        padding: 0 20em;
+    }
+}
+
+/*& MOBILE */
+@media  screen and (max-width: 630px) {
+    
+    
+    .friend-heading {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .friend-heading > * {
+        font-size: 2.2rem;
+    }
+
+    .friend-container {
+        display: flex;
+        flex-direction: row;
+        /* background-color: red; */
+        justify-content: center;
+    }
+}

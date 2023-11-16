@@ -111,6 +111,14 @@ span {
   padding: 0 10rem;
 }
 
+.chandler-image > a > img {
+  filter: grayscale(100%);
+}
+
+.chandler-image > a > img:hover {
+  filter: grayscale(0%);
+}
+
 .friend-image > a {
   text-decoration: none;
   color: var(--white);
@@ -276,6 +284,11 @@ span {
   /*& FRIEND INDIVIDUAL PAGE */
   body {
     justify-content: center;
+  }
+
+  .fancy {
+    text-align: center;
+    font-size: 1rem;
   }
 
   .friend-name {
